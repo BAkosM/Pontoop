@@ -1,7 +1,7 @@
 package hu.petrik.pontoop;
 import java.util.Scanner;
-
-import hu.petrik.pontoop.pont.*;
+import hu.petrik.pontoop.kor.*;
+//import hu.petrik.pontoop.pont.*;
 public class Main {
     public static void main(String[] args) { 
         Scanner sc = new Scanner(System.in);
@@ -64,5 +64,15 @@ public class Main {
             fl = "";
         }
         System.out.print("A "+ pontok[n]+" pont a "+bj + fl+ " négyzetbe van");*/
+        kor[] korok = new kor[10];
+        for(int i = 0; i < korok.length; i++) {
+            korok[i] = new kor(100);
+        }
+        for(kor p: korok ) {
+            System.out.println(p);
+        }
+        double ker = korok[1].getKerulet();
+        System.out.println();
+        System.out.printf("Első kör kerülete: %.3f", ker);
     }
 }
