@@ -5,7 +5,7 @@ import hu.petrik.pontoop.pont.*;
 public class Main {
     public static void main(String[] args) { 
         Scanner sc = new Scanner(System.in);
-        pont p1 = new pont();
+        /*pont p1 = new pont();
         pont p2 = new pont(0,0);
         pont p3 = new pont(3,4);
         pont p4 = new pont(100);
@@ -63,6 +63,6 @@ public class Main {
         } else {
             fl = "";
         }
-        System.out.print("A "+ pontok[n]+" pont a "+bj + fl+ " négyzetbe van");
+        System.out.print("A "+ pontok[n]+" pont a "+bj + fl+ " négyzetbe van");*/
     }
 }
