@@ -74,5 +74,19 @@ public class Main {
         double ker = korok[1].getKerulet();
         System.out.println();
         System.out.printf("Első kör kerülete: %.3f", ker);
+        double ter = korok[1].getTerulet();
+        System.out.println();
+        System.out.printf("Első kör kerülete: %.3f", ter);
+        System.out.println("Adja meg az első kör új méretét: ");
+        double ujs = sc.nextDouble();
+        korok[1].setsugar(ujs);
+        int nagyobb = 0;
+        for(int i = 1; i < korok.length; i++){
+            if(korok[nagyobb].getTerulet()<korok[i].getTerulet()){
+                nagyobb = i;
+            }
+        }
+        System.out.println();
+        System.out.printf("A legnagyobb területő kör a %d -ik aminek területe %.3f",nagyobb,korok[nagyobb].getTerulet());
     }
 }
