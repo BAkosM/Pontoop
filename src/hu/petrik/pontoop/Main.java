@@ -93,6 +93,14 @@ public class Main {
         */
         ember[] emberek = new ember[3];
         ember a = new ember("Bela","2000.02.06","Miskolc");
-        System.out.println(a);
+        emberek[emberek.length] = a; 
+        ember b = new ember("Peti","2001.09.11","Budapest");
+        emberek[emberek.length] = b; 
+        ember c = new ember("Balu","1999.06.09","Debrecen");
+        emberek[emberek.length] = c; 
+        System.out.println(a.getSzulev());
+        System.out.println(a.getSzulho());
+        System.out.println(a.getSzulnap());
+
     }
 }
