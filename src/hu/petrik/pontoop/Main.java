@@ -64,7 +64,7 @@ public class Main {
             fl = "";
         }
         System.out.print("A "+ pontok[n]+" pont a "+bj + fl+ " négyzetbe van");*/
-        kor[] korok = new kor[10];
+        /*kor[] korok = new kor[10];
         for(int i = 0; i < korok.length; i++) {
             korok[i] = new kor(100);
         }
@@ -88,5 +88,6 @@ public class Main {
         }
         System.out.println();
         System.out.printf("A legnagyobb területő kör a %d -ik aminek területe %.3f",nagyobb,korok[nagyobb].getTerulet());
+        */
     }
 }
