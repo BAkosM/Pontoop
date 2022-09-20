@@ -98,9 +98,11 @@ public class Main {
         emberek[emberek.length] = b; 
         ember c = new ember("Balu","1999.06.09","Debrecen");
         emberek[emberek.length] = c; 
-        System.out.println(a.getSzulev());
-        System.out.println(a.getSzulho());
-        System.out.println(a.getSzulnap());
-
+        for(int i = 0; i < emberek.length; i++) {
+        System.out.println(emberek[i].toString());
+        System.out.println(emberek[i].getSzulev());
+        System.out.println(emberek[i].getSzulho());
+        System.out.println(emberek[i].getSzulnap());
+        }
     }
 }
