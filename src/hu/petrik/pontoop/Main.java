@@ -93,11 +93,11 @@ public class Main {
         */
         ember[] emberek = new ember[3];
         ember a = new ember("Bela","2000.02.06","Miskolc");
-        emberek[emberek.length] = a; 
+        emberek[0] = a; 
         ember b = new ember("Peti","2001.09.11","Budapest");
-        emberek[emberek.length] = b; 
+        emberek[1] = b; 
         ember c = new ember("Balu","1999.06.09","Debrecen");
-        emberek[emberek.length] = c; 
+        emberek[2] = c; 
         for(int i = 0; i < emberek.length; i++) {
         System.out.println(emberek[i].toString());
         System.out.println(emberek[i].getSzulev());
