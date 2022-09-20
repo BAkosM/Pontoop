@@ -14,4 +14,8 @@ public class ember {
         this.szuldate=szuldate;
         this.szulhely=szulhely;
     }
+    @Override
+    public String toString() {
+        return String.format(nev +" "+ szuldate + " "+ szulhely);
+    }
 }

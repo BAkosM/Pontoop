@@ -1,6 +1,8 @@
 package hu.petrik.pontoop;
 import java.util.Scanner;
-import hu.petrik.pontoop.kor.*;
+//import hu.petrik.pontoop.pont.*;
+//import hu.petrik.pontoop.kor.*;
+import hu.petrik.pontoop.ember.*;
 //import hu.petrik.pontoop.pont.*;
 public class Main {
     public static void main(String[] args) { 
@@ -89,5 +91,8 @@ public class Main {
         System.out.println();
         System.out.printf("A legnagyobb területő kör a %d -ik aminek területe %.3f",nagyobb,korok[nagyobb].getTerulet());
         */
+        ember[] emberek = new ember[3];
+        ember a = new ember("Bela","2000.02.06","Miskolc");
+        System.out.println(a);
     }
 }
